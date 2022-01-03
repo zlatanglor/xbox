@@ -2,6 +2,26 @@ body {
   font-family: 'HelveticaNeue', sans-serif;
   font-weight: normal; }
 
+.od_btn {
+  background-color: #8DD83D;
+  font-size: 16px;
+  line-height: 21px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.5s; }
+  .od_btn:hover {
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%); }
+
+.od_btn_gr {
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  font-size: 16px;
+  line-height: 21px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.5s; }
+  .od_btn_gr:hover {
+    background: #8DD83D; }
+
 header {
   background-color: #373A3C; }
 
@@ -155,24 +175,35 @@ footer {
       color: #8DD83D;
       text-decoration: none; }
 
-.od_btn {
-  background-color: #8DD83D;
-  font-size: 16px;
-  line-height: 21px;
-  border: none;
-  border-radius: 4px;
-  transition: 0.5s; }
-  .od_btn:hover {
-    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%); }
+.CoD_game {
+  background-image: url("../images/CoD-WWII.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .CoD_game h2 {
+    font-size: 36px; }
+  .CoD_game p {
+    font-size: 14px; }
 
-.od_btn_gr {
-  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
-  font-size: 16px;
-  line-height: 21px;
-  border: none;
-  border-radius: 4px;
-  transition: 0.5s; }
-  .od_btn_gr:hover {
-    background: #8DD83D; }
+.od_title h1 {
+  font-size: 36px;
+  color: #435766; }
+
+.content h3 {
+  font-size: 36px;
+  line-height: 42px;
+  color: #435766; }
+
+#technical_specifications h3 {
+  font-size: 36px;
+  color: #435766; }
+#technical_specifications .od_text {
+  font-size: 21px;
+  line-height: 24px;
+  color: #435766; }
+
+.video video {
+  max-width: 890px;
+  border-radius: 11px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,14 +1,38 @@
 $green_color: #8DD83D;
 $white_color: #FFFFFF;
+$grey_color: #435766;
 $gradient: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
 body{
   font-family: 'HelveticaNeue', sans-serif;
   font-weight: normal;
 }
+//Buttons
+.od_btn{
+  background-color: $green_color;
+  font-size: 16px;
+  line-height: 21px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.5s;
+  &:hover{
+    background: $gradient;
+  }
+}
+.od_btn_gr{
+  background:$gradient;
+  font-size: 16px;
+  line-height: 21px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.5s;
+  &:hover{
+    background: $green_color;
+  }
+}
+//Header
 header{
   background-color: #373A3C;
 }
-//Header
 .navbar-light {
   .navbar-nav {
     .active {
@@ -123,12 +147,12 @@ header{
     h5{
       font-size: 18px;
       line-height: 21px;
-      color: #435766;
+      color: $grey_color;
     }
     p{
       font-size: 19px;
       line-height: 21px;
-      color: #435766;
+      color: $grey_color;
     }
     .od_logo{
       height: 197px;
@@ -161,12 +185,12 @@ header{
     h5{
       font-size: 18px;
       line-height: 21px;
-      color: #435766;
+      color: $grey_color;
     }
     p{
       font-size: 17px;
       line-height: 24px;
-      color: #435766;
+      color: $grey_color;
     }
     .od_logo{
       height: 182px;
@@ -234,31 +258,47 @@ footer{
     }
   }
 }
-
-
-
-
-
-    .od_btn{
-      background-color: $green_color;
-      font-size: 16px;
-      line-height: 21px;
-      border: none;
-      border-radius: 4px;
-      transition: 0.5s;
-      &:hover{
-        background: $gradient;
-      }
-    }
-.od_btn_gr{
-  background:$gradient;
-  font-size: 16px;
-  line-height: 21px;
-  border: none;
-  border-radius: 4px;
-  transition: 0.5s;
-  &:hover{
-    background: $green_color;
+//Game html
+.CoD_game{
+  background-image: url("../images/CoD-WWII.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  h2{
+    font-size: 36px;
+  }
+  p{
+    font-size: 14px;
+  }
+}
+.od_title{
+  h1{
+    font-size: 36px;
+    color: $grey_color;
+  }
+}
+.content{
+  h3{
+    font-size: 36px;
+    line-height: 42px;
+    color: $grey_color
+  }
+}
+#technical_specifications{
+  h3{
+    font-size: 36px;
+    color: $grey_color;
+  }
+  .od_text{
+    font-size: 21px;
+    line-height: 24px;
+    color: $grey_color;
+  }
+}
+.video{
+  video{
+    max-width: 890px;
+    border-radius: 11px;
   }
 }
 
