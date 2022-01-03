@@ -46,6 +46,12 @@ header{
         color: $white_color;
       }
     }
+    .dropdown-item{
+      &.active{
+        color: $green_color;
+        background: $gradient;
+      }
+    }
     .dropdown-toggle {
       &:after {
         content: "\f078";
