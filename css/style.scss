@@ -1,6 +1,3 @@
-@import "bootstrap.min.css";
-@import "owl.carousel.min.css";
-@import "owl.theme.default.min.css";
 $green_color: #8DD83D;
 $white_color: #FFFFFF;
 $gradient: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
@@ -10,11 +7,6 @@ body{
 }
 header{
   background-color: #373A3C;
-  //position: absolute;
-  //top: 0;
-  //left: 0;
-  //right: 0;
-  //z-index: 2;
 }
 //Header
 .navbar-light {
@@ -216,7 +208,7 @@ footer{
       font-size: 14px;
       a{
         text-decoration: none;
-        color: #eee;
+        color: $white_color;
         transition: 0.4s;
         &:hover{
           color: $green_color;
@@ -227,14 +219,14 @@ footer{
           color: $green_color;
           transition: 0.4s;
           &:hover{
-            color: #eee;
+            color: $white_color;
           }
         }
       }
     }
   }
   a{
-    color: #eee;
+    color: $white_color;
     transition: 0.4s;
     &:hover{
       color: $green_color;
