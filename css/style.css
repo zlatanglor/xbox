@@ -1,0 +1,181 @@
+@import url(bootstrap.min.css);
+@import url(owl.carousel.min.css);
+@import url(owl.theme.default.min.css);
+body {
+  font-family: 'HelveticaNeue', sans-serif;
+  font-weight: normal; }
+
+header {
+  background-color: #373A3C; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #FFFFFF; }
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5); }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #FFFFFF; }
+.navbar-light .navbar-nav .dropdown-toggle:after {
+  content: "\f078";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  color: #8DD83D;
+  border: none;
+  margin-left: 8px;
+  vertical-align: middle; }
+.navbar-light .navbar-nav .dropdown-toggle.accaunt:before {
+  content: url("../images/user.png");
+  margin-right: 5px;
+  vertical-align: sub; }
+
+.carusel h2 {
+  font-size: 36px;
+  line-height: 42px;
+  margin: 0; }
+.carusel h4 {
+  font-size: 24px;
+  line-height: 30px; }
+.carusel p {
+  font-size: 14px;
+  line-height: 14px; }
+.carusel .starwars, .carusel .CoD {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative; }
+.carusel .starwars {
+  background-image: url("../images/Star-Wars-Battlefront-II-combat.jpg"); }
+  .carusel .starwars .od_btn {
+    padding: 8px 19px; }
+.carusel .CoD {
+  background-image: url("../images/CoD-WWII.jpg"); }
+  .carusel .CoD .od_btn_gr {
+    padding: 8px 29px; }
+.carusel .owl-carousel .owl-dots {
+  display: none; }
+.carusel .owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%; }
+  .carusel .owl-carousel .owl-nav .owl-next, .carusel .owl-carousel .owl-nav .owl-prev {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    color: #8DD83D; }
+  .carusel .owl-carousel .owl-nav .owl-prev:before {
+    content: "\f053";
+    position: absolute;
+    top: 50%;
+    left: 57px; }
+  .carusel .owl-carousel .owl-nav .owl-next:before {
+    content: "\f054";
+    position: absolute;
+    top: 50%;
+    right: 57px; }
+
+.value {
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%); }
+  .value h2 {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 0; }
+  .value p {
+    font-size: 36px;
+    line-height: 42px; }
+  .value .card h5 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #435766; }
+  .value .card p {
+    font-size: 19px;
+    line-height: 21px;
+    color: #435766; }
+  .value .card .od_logo {
+    height: 197px; }
+
+.games {
+  background-image: url("../images/CoD-WWII.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  overflow: hidden; }
+  .games h3 {
+    font-size: 36px;
+    line-height: 42px; }
+  .games .od_btn_gr {
+    padding: 20px 47px; }
+  .games .card h5 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #435766; }
+  .games .card p {
+    font-size: 17px;
+    line-height: 24px;
+    color: #435766; }
+  .games .card .od_logo {
+    height: 182px; }
+
+.design_lab {
+  background-image: url("../images/DesignLabSection.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top; }
+  .design_lab h2 {
+    font-size: 48px;
+    line-height: 56px; }
+  .design_lab p {
+    font-size: 24px;
+    line-height: 28px; }
+  .design_lab .od_btn_gr {
+    padding: 20px 52px; }
+  .design_lab .od_btn {
+    padding: 20px 23px; }
+
+footer {
+  background-color: #373A3C; }
+  footer h3 {
+    color: #8DD83D;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: bold; }
+  footer ul li {
+    font-size: 14px; }
+    footer ul li a {
+      text-decoration: none;
+      color: #eee;
+      transition: 0.4s; }
+      footer ul li a:hover {
+        color: #8DD83D;
+        text-decoration: none; }
+      footer ul li a i {
+        font-size: 20px;
+        color: #8DD83D;
+        transition: 0.4s; }
+        footer ul li a i:hover {
+          color: #eee; }
+  footer a {
+    color: #eee;
+    transition: 0.4s; }
+    footer a:hover {
+      color: #8DD83D;
+      text-decoration: none; }
+
+.od_btn {
+  background-color: #8DD83D;
+  font-size: 16px;
+  line-height: 21px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.5s; }
+  .od_btn:hover {
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%); }
+
+.od_btn_gr {
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  font-size: 16px;
+  line-height: 21px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.5s; }
+  .od_btn_gr:hover {
+    background: #8DD83D; }
+
+/*# sourceMappingURL=style.css.map */
